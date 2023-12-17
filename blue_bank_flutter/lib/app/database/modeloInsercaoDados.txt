@@ -1,0 +1,10 @@
+ FirebaseFirestore db = DBFirestore.get();
+
+  db.collection("clientes/001").doc('001').set({
+    'id_conta' : 001,
+    'nome' : "Gabriel",
+    'agencia' : "0001",
+    'banco' : "123458697-6",
+    'estabelecimento' : "Blue Pagamentos S.A",
+    'saldo' : 0.00,
+  });
